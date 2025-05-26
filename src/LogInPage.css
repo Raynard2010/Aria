@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: "Khula";
+  background-color: #231F1F;
+}
+
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #231F1F;
+}
+
+.login-card {
+  background-color: #D9D9D9;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.logo {
+  width: 170px;
+  margin: 0px;
+}
+
+.login-form label {
+  display: block;
+  text-align: left;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.login-form a {
+  color: black;
+  text-decoration: none;
+}
+
+.login-form input {
+  width: 95%;
+  padding: 8px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.artist-link {
+  display: block;
+  font-size: 0.85rem;
+  margin: 10px 0;
+  color: #000;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #AD4545;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.signup-link {
+  font-size: 0.85rem;
+  margin-top: 15px;
+}
