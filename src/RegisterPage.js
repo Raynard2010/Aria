@@ -1,4 +1,4 @@
-import logo from './logo.png';
+import logo from './assets/logo.png';
 import './RegisterPage.css';
 import { Link } from 'react-router-dom';
 
