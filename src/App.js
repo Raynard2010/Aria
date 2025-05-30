@@ -5,6 +5,7 @@ import RegisterPage from './RegisterPage';
 import RegisterForArtistsPage from './RegisterForArtistsPage';
 import HomeArtistPage from './HomeArtistPage';
 import SongStatPage from './SongStatPage';
+import UploadSongPage from './UploadSongPage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/RegisterForArtists" element={<RegisterForArtistsPage/>} />
         <Route path="/HomeArtist" element={<HomeArtistPage/>} />
         <Route path="/SongStat" element={<SongStatPage/>} />
+        <Route path="/UploadSong" element={<UploadSongPage/>} />
 
       </Routes>
     </Router>

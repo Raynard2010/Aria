@@ -20,7 +20,7 @@ function App() {
         </Link>
 
 
-        <Link to="/Register" className="link-button">
+        <Link to="/UploadSong" className="link-button">
                 Upload a new song
         </Link>
       </div>
